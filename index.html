@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Northlane Clinic — Modern Business Landing Page Template</title>
+  <meta name="description" content="A fast, responsive landing page template for clinics and service businesses. Built with semantic HTML, modern CSS and vanilla JavaScript.">
+  <meta property="og:title" content="Northlane Clinic — Landing Page Template">
+  <meta property="og:description" content="Fast, responsive landing page template for clinics and service businesses.">
+  <meta name="theme-color" content="#0f172a">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav">
+      <a href="#top" class="logo" aria-label="Northlane Clinic home">
+        <span class="logo-mark" aria-hidden="true">N</span>
+        <span>Northlane<span class="logo-accent">Clinic</span></span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="nav-menu" class="nav-menu" aria-label="Main">
+        <a href="#services">Services</a>
+        <a href="#how">How it works</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#book" class="btn btn-sm">Book now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Same-week appointments · London</p>
+          <h1>Healthcare that fits <span class="grad">around your life</span></h1>
+          <p class="lead">Book a consultation online in under a minute. Friendly specialists, clear prices and appointments that suit your schedule.</p>
+          <div class="hero-cta">
+            <a href="#book" class="btn">Book an appointment</a>
+            <a href="#services" class="btn btn-ghost">View services</a>
+          </div>
+          <ul class="trust">
+            <li><strong data-count="4.9">0</strong><span>Average rating</span></li>
+            <li><strong data-count="12000" data-suffix="+">0</strong><span>Patients treated</span></li>
+            <li><strong data-count="15" data-suffix=" yrs">0</strong><span>Experience</span></li>
+          </ul>
+        </div>
+        <div class="hero-card reveal" aria-hidden="true">
+          <div class="card-top">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+          </div>
+          <p class="card-title">Next available</p>
+          <div class="slots">
+            <span>Mon 09:30</span><span>Mon 14:00</span><span class="active">Tue 10:15</span><span>Wed 16:45</span>
+          </div>
+          <div class="card-row"><span>Consultation</span><strong>£45</strong></div>
+          <div class="card-row"><span>Duration</span><strong>30 min</strong></div>
+          <div class="card-btn">Confirm booking</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">What we offer</p>
+          <h2>Services</h2>
+          <p>Everything you need in one place, with no long waiting lists.</p>
+        </header>
+        <div class="grid-3">
+          <article class="feature reveal">
+            <div class="icon" aria-hidden="true">🩺</div>
+            <h3>General check-ups</h3>
+            <p>Full health assessments with a clear written summary and next steps.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="icon" aria-hidden="true">🦷</div>
+            <h3>Dental care</h3>
+            <p>Check-ups, hygiene and cosmetic treatments from experienced dentists.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="icon" aria-hidden="true">👂</div>
+            <h3>Hearing tests</h3>
+            <p>Professional hearing assessments and fitting of modern hearing aids.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="icon" aria-hidden="true">💬</div>
+            <h3>Video consultations</h3>
+            <p>Speak to a specialist from home — prescriptions sent the same day.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="icon" aria-hidden="true">🧪</div>
+            <h3>Blood tests</h3>
+            <p>Fast results, explained in plain language by our clinical team.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="icon" aria-hidden="true">📅</div>
+            <h3>Online booking</h3>
+            <p>Choose a time that suits you and get instant email confirmation.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section id="how" class="section alt">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Simple process</p>
+          <h2>How it works</h2>
+        </header>
+        <ol class="steps">
+          <li class="reveal"><span>1</span><h3>Choose a service</h3><p>Pick what you need and see the price upfront.</p></li>
+          <li class="reveal"><span>2</span><h3>Pick a time</h3><p>Select a slot that fits your day — evenings available.</p></li>
+          <li class="reveal"><span>3</span><h3>Get treated</h3><p>Visit us or join a video call. Follow-ups included.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Sample content</p>
+          <h2>What patients say</h2>
+          <p class="muted">Placeholder testimonials for demonstration — replace with your own.</p>
+        </header>
+        <div class="slider reveal" data-slider>
+          <div class="slides">
+            <blockquote class="slide"><p>“Booked on Sunday night, seen on Monday morning. Clear explanation and no rush.”</p><cite>— Sample review A</cite></blockquote>
+            <blockquote class="slide"><p>“The online booking is so easy and the reminders meant I didn't forget.”</p><cite>— Sample review B</cite></blockquote>
+            <blockquote class="slide"><p>“Friendly team and transparent prices. Exactly what a clinic should be.”</p><cite>— Sample review C</cite></blockquote>
+          </div>
+          <div class="slider-nav">
+            <button type="button" data-prev aria-label="Previous review">←</button>
+            <div class="dots" role="tablist"></div>
+            <button type="button" data-next aria-label="Next review">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="section alt">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Transparent prices</p>
+          <h2>Pricing</h2>
+          <div class="toggle" role="group" aria-label="Billing">
+            <button type="button" class="active" data-plan="single">Single visit</button>
+            <button type="button" data-plan="yearly">Yearly plan <em>-20%</em></button>
+          </div>
+        </header>
+        <div class="grid-3 pricing">
+          <article class="price-card reveal">
+            <h3>Essential</h3>
+            <p class="price"><span data-single="45" data-yearly="36">45</span><small>/ visit</small></p>
+            <ul><li>30-minute consultation</li><li>Written summary</li><li>Email support</li></ul>
+            <a href="#book" class="btn btn-ghost">Choose</a>
+          </article>
+          <article class="price-card featured reveal">
+            <p class="badge">Most popular</p>
+            <h3>Complete</h3>
+            <p class="price"><span data-single="95" data-yearly="76">95</span><small>/ visit</small></p>
+            <ul><li>Full health check</li><li>Blood test included</li><li>Follow-up call</li><li>Priority booking</li></ul>
+            <a href="#book" class="btn">Choose</a>
+          </article>
+          <article class="price-card reveal">
+            <h3>Family</h3>
+            <p class="price"><span data-single="160" data-yearly="128">160</span><small>/ visit</small></p>
+            <ul><li>Up to 4 people</li><li>Shared health records</li><li>Weekend appointments</li></ul>
+            <a href="#book" class="btn btn-ghost">Choose</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <div class="container narrow">
+        <header class="section-head reveal">
+          <p class="eyebrow">Questions</p>
+          <h2>Frequently asked</h2>
+        </header>
+        <div class="faq">
+          <details class="reveal"><summary>How quickly can I get an appointment?</summary><p>Most patients are seen within the same week, and many on the same day.</p></details>
+          <details class="reveal"><summary>Can I cancel or reschedule?</summary><p>Yes — free of charge up to 24 hours before your appointment, directly from your confirmation email.</p></details>
+          <details class="reveal"><summary>Do you offer video consultations?</summary><p>Yes, for most services. You'll receive a secure link by email before your appointment.</p></details>
+          <details class="reveal"><summary>Which payment methods do you accept?</summary><p>All major debit and credit cards, Apple Pay and Google Pay.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking form -->
+    <section id="book" class="section cta">
+      <div class="container narrow">
+        <header class="section-head reveal">
+          <p class="eyebrow">Get started</p>
+          <h2>Book an appointment</h2>
+          <p>Demo form — validates in the browser and shows a confirmation. Connect it to your backend or email service.</p>
+        </header>
+        <form class="book-form reveal" novalidate>
+          <div class="field">
+            <label for="name">Full name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required minlength="2">
+            <small class="error" aria-live="polite"></small>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+            <small class="error" aria-live="polite"></small>
+          </div>
+          <div class="field">
+            <label for="service">Service</label>
+            <select id="service" name="service" required>
+              <option value="">Select a service</option>
+              <option>General check-up</option>
+              <option>Dental care</option>
+              <option>Hearing test</option>
+              <option>Video consultation</option>
+            </select>
+            <small class="error" aria-live="polite"></small>
+          </div>
+          <div class="field">
+            <label for="date">Preferred date</label>
+            <input id="date" name="date" type="date" required>
+            <small class="error" aria-live="polite"></small>
+          </div>
+          <button type="submit" class="btn btn-block">Request appointment</button>
+          <p class="form-success" role="status" hidden>Thank you! We'll email you to confirm your appointment.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© <span id="year"></span> Northlane Clinic (demo brand). Template by <a href="https://vortaxis.com">Vortaxis Studio</a>.</p>
+      <a href="#top" class="to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
